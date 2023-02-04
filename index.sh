@@ -48,7 +48,9 @@ function r_number() {
 }
 
 function del_image() {
-  rm -f "/home/hecdelatorre/Pictures/wallpaper.jpg"
+  if [ -f "/home/hecdelatorre/Pictures/wallpaper.jpg" ]; then
+    rm -f "/home/hecdelatorre/Pictures/wallpaper.jpg"
+  fi
 }
 
 function set_wallpaper() {
