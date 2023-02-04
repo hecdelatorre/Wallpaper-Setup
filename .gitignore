@@ -1,0 +1,7 @@
+*.sh
+.bashrc
+.bash_profile
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
