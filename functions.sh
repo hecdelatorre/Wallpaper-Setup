@@ -54,11 +54,3 @@ function del_image() {
 function set_wallpaper() {
   ln "$1" "/home/hecdelatorre/Pictures/wallpaper.jpg"
 }
-
-directory=$(enter_directory)
-selected_images=($(select_image "$directory"))
-count="${selected_images[-1]}"
-selected_images=("${selected_images[@]:0:$((${#selected_images[@]}-1))}")
-ran_number=$(r_number "$count")
-del_image
-set_wallpaper "${selected_images[$ran_number]}"
