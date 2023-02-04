@@ -1,4 +1,5 @@
 # Script de cambio de fondo de pantalla
+
 Este script es una herramienta que permite cambiar automáticamente el fondo de pantalla en un sistema basado en Unix.
 
 ## Funcionamiento
@@ -12,8 +13,8 @@ El script se ejecuta en el terminal y realiza las siguientes acciones:
 ## Uso
 Para usar este script, siga los siguientes pasos:
 1. Descargue el script de este repositorio.
-2. Asegúrese de tener permisos de ejecución en el script: `chmod +x wallpaper.sh`
-3. Ejecute el script: `./wallpaper.sh`
+2. Asegúrese de tener permisos de ejecución en el script: `chmod +x index.sh`
+3. Ejecute el script: `./index.sh`
 
 Nota: El directorio por defecto es `/home/hecdelatorre/Pictures/r-wallpapers`, pero puede ser modificado para apuntar a otro directorio de imágenes.
 
